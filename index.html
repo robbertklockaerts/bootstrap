@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h2>Blocs positioning</h2>
+        <div class="row">
+
+            <div class="p-3 border bg-light text-center">12 Columns</div>
+        </div>
+
+
+        <div class="row">
+
+            <div class="col offset-1">
+                <div class="p-3 border bg-light">coucou</div>
+            </div>
+            <div class="col offset-1">
+                <div class="p-3 border bg-light">ca</div>
+            </div>
+            <div class="col">
+                <div class="p-3 border bg-light">va</div>
+            </div>
+
+
+        </div>
+        <h2>Imbricated elements</h2>
+
+
+        <div class="row">
+
+            <div class="col">
+                <div class="p-3 border bg-light">New</div>
+            </div>
+
+            <div class="col">
+                <div class="p-3 border bg-light fw-bold text-center">exercise</div>
+
+                <div class="row">
+                    <div class="col">
+                        <div class="p-3 border bg-light">all</div>
+                    </div>
+                    <div class="col">
+                        <div class="p-3 border bg-light">these</div>
+                    </div>
+                    <div class="col">
+                        <div class="p-3 border bg-light">blocks are </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <div class="p-3 border bg-light">are</div>
+                    </div>
+                    <div class="col">
+                        <div class="p-3 border bg-light fw-bold">"written"</div>
+                    </div>
+                    <div class="col">
+                        <div class="p-3 border bg-light">in the same</div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <div class="p-3 border bg-light">div.</div>
+                    </div>
+                    <div class="col">
+                        <div class="p-3 border bg-light">How</div>
+                    </div>
+                    <div class="col">
+                        <div class="p-3 border bg-light">?</div>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+        </div>
+
+        <h2>Change elements order</h2>
+        <div class="row">
+
+            <div class="p-3 border bg-light text-center">12 Columns</div>
+        </div>
+
+
+        <div class="row">
+
+            <div class="col offset-1 order-3">
+                <div class="p-3 border bg-light">coucou</div>
+            </div>
+            <div class="col offset-1 order-1">
+                <div class="p-3 border bg-light">ca</div>
+            </div>
+            <div class="col order-2">
+                <div class="p-3 border bg-light">va</div>
+            </div>
+
+
+        </div>
+
+        <h2>Practice makes good</h2>
+
+        <div class="row">
+
+            <div class="col-6">
+                <div class="p-3 border border-dark rounded bg-light text-center">6 columns</div>
+
+
+                <div class="row">
+
+                    <div class="col-4">
+                        <div class="p-3 border border-dark rounded bg-light text-center">4 columns</div>
+                    </div>
+
+                    <div class="col-4 offset-4">
+                        <div class="p-3 border border-dark rounded bg-light text-center">4 columns</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6">
+                <div class="p-3 border border-dark rounded bg-light text-center">6 columns</div>
+
+
+                <div class="row">
+
+                    <div class="col-4">
+                        <div class="p-3 border border-dark rounded bg-light text-center">4 columns</div>
+                    </div>
+
+                    <div class="col-8">
+                        <div class="p-3 border border-dark rounded bg-light text-center">8 columns</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h2> Desktop & mobile responsive</h2>
+
+
+
+        <div class="row m-2">
+            <div class="col-4 col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                <div class="p-3 border bg-light text-center">
+                    <img class="image-responsive" src="ToyMachine.jpeg" alt="foto" width="35">Logo</div>
+            </div>
+            <div class="col-8 col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                <div class="p-3 border bg-light text-center">Titel</div>
+            </div>
+
+        </div>
+
+        <div class="row m-2">
+            <div class="col-xs-12 col-lg-12">
+                <div class="p-3 border bg-light text-center">Hero</div>
+            </div>
+
+        </div>
+
+        <div class="row m-2">
+            <div class="col-xs-12 col-lg-4">
+                <div class="p-3 border bg-light text-center">Zone 1</div>
+            </div>
+            <div class="col-xs-12 col-lg-4">
+                <div class="p-3 border bg-light text-center">Zone 2</div>
+            </div>
+            <div class="col-xs-12 col-lg-4">
+                <div class="p-3 border bg-light text-center">Zone 3</div>
+            </div>
+        </div>
+
+        <div class="row m-2">
+            <div class="col-8 col-xs-8 col-sm-6 col-md-6 col-lg-6">
+                <div class="p-3 border bg-light text-center">Zone 5</div>
+            </div>
+            <div class="col-4 col-xs-4 col-sm-6 col-md-6 col-lg-6">
+                <div class="p-3 border bg-light text-center">Zone 6</div>
+            </div>
+
+        </div>
+
+        <div class="row m-2">
+            <div class="col-xs-12 col-lg-12">
+                <div class="p-3 border bg-light text-center">footer</div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+        integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
